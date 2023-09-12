@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body{
+    background-color:lemonchiffon;
+    font-family: 'Open Sans';
+}
+#info{
+    color: #800060;
+    font-family:'Sacramento';
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    color:#800060 ;
+    font-size: 100px;
+    text-align: center;
+}
+#contenedor{
+ 
+    height: 2500px;
+}
+#cabecera{
+   
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+#hola{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+    height: auto;
+}
+.btn{
+    font-family: 'Open Sans' ;
+}
+.bg_violet{
+    background-color:darkorchid
+}
+.bg_violet:hover{
+    background-color:#800060;
+    color: white;
+}
+#productos{
+    
+    height: auto;
+}
+#galeria{
+    margin-top: 50px;
+   
+    height: 600px;
+}
+#contacto{
+   
+    height: auto;
+}
+#pie{
+   
+    height: 200px;
+}
+
+
+#prod1{
+   
+    height: auto;
+}
+#prod2{
+   
+    height: auto;
+}
+#datos{
+    color: #800060;
+    
+    margin-top: 50px;
+}
+#redes{
+    
+    margin-top: 50px;
+}
+.botoneraredes{
+	float: right; 
+	display: block;
+}
+#marca1{
+	float: left;
+	font-family:'Sacramento';
+	font-size: 60px;
+	color:#800060;
+}
+#marca1:hover{
+	color: #ff4000;
+}
+#bajada1{
+    margin-top: -30px;
+    margin-left: 125px;
+    float: left;
+	text-align: center;
+	font-family:'Sacramento';
+	font-size: 30px;
+	color:#800060;
+	
+}
+
+#bajada1:hover{
+	color: #ff4000;
+}

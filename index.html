@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<title>Curso Bootstrap</title>
+    <!--Css Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--Css Propio-->
+    <link rel="stylesheet" type="text/css" href="estilo1.css">
+</head>
+<body>
+    <main class= "container" id="contenedor">
+    <header id="cabecera" class="row">
+        <div id="marca" class="col-lg-3 col-sm-6">
+        <div id="marca1"><strong>Artesara</strong></div>
+		    <div id="bajada1">diseño y tejido</div>	
+        </div>
+        <div id="botonera" class="col-lg-6 offset-lg-3 col-sm-6">
+            <!--Inicio navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark btn bg_violet">
+                <div class="container-fluid">
+                  <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hola">HOLA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#contacto">Contacto</a>
+                      </li>
+                    </ul>
+                    <!--
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>-->
+                    
+                  </div>
+                </div>
+              </nav>
+            <!--Fin navbar-->
+            </div>
+    </header>
+    <section id="hola" class="row">
+      <div class="col-lg-2 col-sm-1" id="hola1"></div>
+        <div class="col-lg-8 col-sm-10" id="hola2">
+          <div id="info">
+            <h1>Hola</h1>
+        <p><strong>Somos Artesara</strong> nació como una necesidad de un espacio personal para exponer mi habilidad en el crochet. 
+          Mis primeros tejidos fueron para los integrantes de mi familia. Con la llegada de mis nietos mi pasion al tejido se empezó 
+          a potenciar, con saquitos, gorritos, mantitas y souvenirs para sus primeros años de vida. Asi comenzó mi emprendimiento.
+           Hoy en día me dedico a crear, imaginar y diseñar articulos decorativos o de uso cotidiano, poniendole mucho amor y compromiso 
+           a cada pieza para que sea única y original. Cada diseño será pensado para cada cliente en particular. No dudes en pedirnos el 
+           tuyo.</p>
+          <p><a href="#" class="btn bg_violet">Seguir</a></p>
+      </div>
+        </div>
+        <div class="col-lg-2 col-sm-1" id="hola3"></div>
+     
+    </section>
+    <section id="productos" class="row gy-2">
+        <div class="col-lg-12" id="prod1">
+          <!--Inicio card-->
+          <div class="card-group">
+            <div class="card">
+              <img src="imagenes/pantuflas_unicornio.jpg" class="card-img-top" alt="pantu">
+              <div class="card-body">
+                <h5 class="card-title">Pantuflas Unicornio</h5>
+                </div>
+               <div><p class="btn bg_violet">Comprar</p>
+    </div>
+              </div>
+            <div class="card">
+              <img src="imagenes/cesto_turque.jpg" class="card-img-top" alt="cesto">
+              <div class="card-body">
+                <h5 class="card-title">Cesto turquesa</h5>
+                </div>
+                <div><p><a href="#" class="btn bg_violet">Comprar</a></p>
+                </div>
+              </div>
+            <div class="card">
+              <img src="imagenes/portaretrato.jpg" class="card-img-top" alt="portaretrato">
+              <div class="card-body">
+                <h5 class="card-title">Portaretrato</h5>
+                </div>
+                <div><p><a href="#" class="btn bg_violet">Comprar</a></p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+       <!--Fin card-->
+       <div class="col-lg-12" id="prod2">
+       <!--Inicio card-->
+         <div class="card-group">
+          <div class="card">
+            <img src="imagenes/barbijos.jpg" class="card-img-top" alt="barbijos">
+            <div class="card-body">
+              <h5 class="card-title">Barbijos</h5>
+              
+            </div>
+            <div><p><a href="#" class="btn bg_violet">Comprar</a></p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="imagenes/almohadon_lavandablanco.jpg" class="card-img-top" alt="almohadon">
+            <div class="card-body">
+              <h5 class="card-title">Almohadon Lavanda</h5>
+              
+            </div>
+            <div><p><a href="#" class="btn bg_violet">Comprar</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/almohadon_corazon.jpg" class="card-img-top" alt="almohadonCorazon">
+            <div class="card-body">
+              <h5 class="card-title">Almohadon Corazon</h5>
+              
+            </div>
+            <div><p><a href="#" class="btn bg_violet">Comprar</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--Fin card-->
+    </section>
+    <section id="galeria" class="row gy-2">
+      <div class="col-lg-2 col-sm-1" id="gal1"></div>
+        <div class="col-lg-8 col-sm-10" id="gal2">
+         <!--Inicio Carousel--> 
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/otros.jpg" class="d-block w-100" alt="fondo">
+              <div class="carousel-caption d-none d-md-block">
+               
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/tortuga.jpg" class="d-block w-100" alt="tortuga">
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/centro.jpg" class="d-block w-100" alt="centro">
+              <div class="carousel-caption d-none d-md-block">
+             
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+         <!--Fin Carousel-->
+        </div>
+     
+        <div class="col-lg-2 col-sm-1" id="gal3"></div>
+      
+    </section>
+    <section id="contacto" class="row gy-2">
+      <div class="col-lg-2 col-sm-1" id="cont1"></div>
+      <!--Inicio Form-->
+      <div class="col-lg-8 col-sm-10" class="row gy-4"id="cont2">
+      <form class="row g-3 needs-validation" novalidate>
+       
+        <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Mail</label>
+              <div class="input-group has-validation">
+
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationCustom03" class="form-label">Mensaje</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            
+            
+            <div class="col-lg-10 col-sm-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Recibir promociones y descuentos a mi casilla de mail
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-10">
+              <button class="btn bg_violet" type="submit">Enviar</button>
+            </div>
+          </form>
+          <!--Fin Form-->
+
+
+        </div>
+        <div class="col-lg-2 col-sm-1" id="cont3"></div>
+
+    </section>
+    <footer id="pie" class="row">
+      <div id="datos" class="col-lg-4 col-sm-6">
+        <nav>Nicomedes Castro 1025</nav>
+        <nav>Posadas - Misiones - 3300</nav>
+        <nav>Tel: (0376) 436 507</nav>
+      </div>
+        <div id="redes" class="col-lg-4 offset-lg-4 col-sm-6">
+          <figure class="botoneraredes">
+            <a title="face" href="https://www.facebook.com/Artesara-diseno-y-tejido-100895055592192/" target="_blank"><img src="imagenes/face.png" alt="Facebook" width="25%" height="auto"></a>
+            <a title="instagram" href="https://www.instagram.com/artesaradisenoytejido/" target="_blank"><img src="imagenes/insta.png" alt="Instagram" width="25%" height="auto"></a>
+            <a title="youtube" href="https://www.youtube.com/channel/UCUIK9WWq3nLBnBh62AyIDzQ/videos" target="_blank"><img src="imagenes/youtube.png" alt="Youtube" width="25%" height="auto"></a>
+            </figure>
+        </div>
+
+    </footer>
+</main>
+    <!--Js de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+ <script type="text/javascript" src="js/mcursos.js"></script>
+</body>
+</html>
